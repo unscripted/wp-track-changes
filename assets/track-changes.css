@@ -1,0 +1,58 @@
+.dataviews-view-table {
+  border-collapse: collapse;
+  border-color: inherit;
+  color: #757575;
+  position: relative;
+  text-indent: 0;
+  width: 100%;
+}
+
+.dataviews-view-table thead tr {
+  border: 0;
+}
+
+.dataviews-view-table tr {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.dataviews-view-table tr:last-child {
+  border-bottom: 0;
+}
+
+.dataviews-view-table tr td:first-child,
+.dataviews-view-table tr th:first-child {
+  padding-left: 32px;
+}
+
+.dataviews-view-table thead th {
+  background-color: #fff;
+  box-shadow: inset 0 -1px 0 #f0f0f0;
+  font-size: 11px;
+  font-weight: 500;
+  padding-bottom: 8px;
+  padding-left: 4px;
+  padding-top: 8px;
+  text-transform: uppercase;
+}
+
+.dataviews-view-table td,
+.dataviews-view-table th {
+  padding: 12px;
+  white-space: nowrap;
+}
+
+.dataviews-view-table th {
+  color: #1e1e1e;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.dataviews-view-table td.dataviews-view-table__checkbox-column,
+.dataviews-view-table th.dataviews-view-table__checkbox-column {
+  padding-right: 0;
+}
+
+.dataviews-view-table tbody td {
+  vertical-align: top;
+}
