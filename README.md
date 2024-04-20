@@ -1,5 +1,7 @@
 # Track Changes
 
+![Track Changes](https://github.com/unscripted/wp-track-changes/blob/main/_wordpress-org/banner-1544x500.png)
+
 Track Changes is a developer tool for block themes that assists in surfacing customizations made in the WordPress site editor (Gutenberg). It enables theme developers to use a Git-based workflow to identify new or modified patterns, template parts, and templates. Additionally, it checks for global style (theme.json) edits made within the site editor.
 
 The plugin registers a dashboard widget that runs a `get_posts` query targeting the post types used by the Site Editor when saving customizations. It then returns the results in a table, showing the file type, name, and last modified date.
